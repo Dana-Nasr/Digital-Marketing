@@ -65,7 +65,7 @@ main {
   position: relative;
   flex: 1 1 45%;
   min-width: 200px;
-  padding: 50px;
+  padding: 40px;
   margin-bottom: 50px;
   border-radius: 8px;
   text-align: left;
@@ -85,7 +85,7 @@ main {
 }
 
 .delivrables p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .partner-container {
@@ -93,8 +93,8 @@ main {
   padding: 20px;
   width: 250px;
   height: 250px;
-  margin-left: 20px ;
-  margin-right: 20px ;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 125px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
 }
@@ -104,15 +104,30 @@ main {
 }
 .partner-container > p {
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 1.1em;
 }
 .partner {
   max-width: 1150px;
-
 }
 .partner-container:hover {
   transform: scale(1.05);
+  background-color: #21dadb;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  line-height: 30px;
+}
+.social-links {
+  gap: 80px;
+}
+.social-links div:hover {
+  transform: scale(1.3);
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
 }
 @media (max-width: 768px) {
   .main-container h1 {

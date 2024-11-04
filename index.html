@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./styles/base/utilities.css" />
     <link rel="stylesheet" href="./styles/base/sections.css" />
     <link rel="stylesheet" href="./styles/home.css" />
+   
   </head>
-  <body class="body">
+  <body class="body flex column center">
     <div class="flex column">
-      <header class="white-bk">
+      <header class="head white-bk">
         <div class="navbar flex space-between">
           <div class="logo">
             <img src="./assets/logo.png" alt="iSocial Lebanon Logo" />
@@ -20,7 +21,6 @@
             <ul class="flex center">
               <li><a href="#deliver">What We Deliver</a></li>
               <li><a href="#partner">Why Partner With Us</a></li>
-
               <li><a href="#connect">Let's Connect</a></li>
             </ul>
           </nav>
@@ -29,7 +29,7 @@
 
       <main>
         <section class="main-container bk-primary white">
-          <h1>SEE LIFE FROM A DIFFERENT PERSPECTIVE</h1>
+          <h1>SEE LIFE FROM A <span class="txt-primary black"><bold>DIFFERENT</bold></span> PERSPECTIVE</h1>
           <p>
             We are a symbol of Quality, Reliability, and Success. With our
             expertise and skills in social media, we're confident that we'll be
@@ -46,7 +46,7 @@
 
       <div id="deliver" class="container white-bk">
         <div class="header">
-          <h1>WHAT WE DELIVER</h1>
+          <h1>WHAT WE <span class="txt-primary"><bold>Deliver</bold></span></h1>
         </div>
         <div class="deliver flex wrap space-between">
           <div class="delivrables bk-primary white" data-animate>
@@ -84,8 +84,11 @@
       </div>
 
       <section id="partner" class="main-container bk-primary white">
-        
-        <h1>Why Partner with Us?</h1>
+        <h1>
+          Why
+          <span class="txt-primary black">Partner</span>
+          with Us?
+        </h1>
         <p>
           Our unique approach to collaboration, innovation, and results empowers
           your business to succeed.
@@ -133,6 +136,8 @@
           </div>
         </div>
       </section>
+
+      
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="script.js"></script>

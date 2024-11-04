@@ -1,0 +1,65 @@
+main {
+  padding-top: 50px; /* To prevent content from hiding behind the navbar */
+}
+
+.main-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.main-container p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+ 
+}
+
+.image-gallery {
+
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.image-box {
+  background-color: #cccccc;
+  width: 180px;
+  height: 220px;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.image-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .main-container h1 {
+    font-size: 1.8em;
+  }
+
+  .image-gallery {
+    gap: 10px;
+  }
+
+  .image-box {
+    width: 45%;
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container h1 {
+    font-size: 1.5em;
+  }
+
+  .main-container p {
+    font-size: 1em;
+  }
+}

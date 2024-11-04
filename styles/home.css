@@ -5,6 +5,8 @@ main {
 .main-container {
   text-align: center;
   padding: 50px 20px;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .main-container h1 {
@@ -47,7 +49,7 @@ main {
 
 .header h1 {
   font-size: 2.5em;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .header p {
@@ -79,7 +81,7 @@ main {
 
 .delivrables h2 {
   font-size: 1.5em;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .delivrables p {
@@ -87,16 +89,30 @@ main {
 }
 
 .partner-container {
-  margin: 20px;
-  padding: 10px;
-  border-radius: 100px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+  margin-left: 20px ;
+  margin-right: 20px ;
+  border-radius: 125px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
 }
 .partner-container > h2 {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 .partner-container > p {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.partner {
+  max-width: 1150px;
+
+}
+.partner-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 768px) {
   .main-container h1 {

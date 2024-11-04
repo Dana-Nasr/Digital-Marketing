@@ -15,7 +15,7 @@ main {
 }
 
 .main-container p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -27,7 +27,6 @@ main {
 }
 
 .image-box {
-  background-color: #cccccc;
   width: 180px;
   height: 220px;
   transition: transform 0.3s ease;
@@ -52,10 +51,6 @@ main {
   margin-bottom: 30px;
 }
 
-.header p {
-  font-size: 1em;
-  margin-bottom: 40px;
-}
 
 .deliver {
   gap: 20px;
@@ -109,6 +104,9 @@ main {
 .partner {
   max-width: 1150px;
 }
+.partner>p{
+    font-size: 1.3em;
+}
 .partner-container:hover {
   transform: scale(1.05);
   background-color: #21dadb;
@@ -129,6 +127,16 @@ main {
   width: 30px;
   height: 30px;
 }
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+  }
+
+
+
 @media (max-width: 768px) {
   .main-container h1 {
     font-size: 1.8em;

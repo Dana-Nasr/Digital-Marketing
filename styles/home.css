@@ -1,5 +1,5 @@
 main {
-  padding-top: 50px; /* To prevent content from hiding behind the navbar */
+  padding-top: 50px; 
 }
 
 .main-container {
@@ -17,11 +17,9 @@ main {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 40px;
- 
 }
 
 .image-gallery {
-
   gap: 20px;
   padding-top: 20px;
 }
@@ -39,6 +37,53 @@ main {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.container {
+  max-width: 1200px;
+  padding: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.deliver {
+  gap: 20px;
+}
+
+.delivrables {
+  position: relative;
+  width:   45%;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  overflow: hidden;
+  clip-path: polygon(0 0, 90% 0, 100% 20%, 100% 100%, 10% 100%, 0 80%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.delivrables:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.delivrables h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.delivrables p {
+  font-size: 1em;
+}
+
 @media (max-width: 768px) {
   .main-container h1 {
     font-size: 1.8em;
@@ -52,6 +97,9 @@ main {
     width: 45%;
     max-width: 220px;
   }
+  .delivery-box {
+    flex: 1 1 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -61,5 +109,8 @@ main {
 
   .main-container p {
     font-size: 1em;
+  }
+  .header h1 {
+    font-size: 1.8em;
   }
 }

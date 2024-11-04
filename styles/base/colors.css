@@ -5,6 +5,16 @@
   background-color: #4d94e6;
 }
 
-.txt-primary{
-   color: #35bbdf;
+.txt-primary {
+  color: #35bbdf;
+}
+.white-bk {
+  background-color: #ffffff;
+}
+.body {
+  background-color: #f0f0f0;
+  color: #090D0E;
+}
+a{
+    color: #090D0E;
 }

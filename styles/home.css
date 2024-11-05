@@ -178,6 +178,19 @@ img {
   .delivery-box {
     flex: 1 1 100%;
   }
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.7em;
+  
+}
+.logo img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
 }
 
 @media (max-width: 480px) {
@@ -190,5 +203,12 @@ img {
   }
   .header h1 {
     font-size: 1.8em;
+  }
+  
+    nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.2em;
+    
   }
 }

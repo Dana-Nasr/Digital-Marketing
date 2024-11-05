@@ -32,12 +32,13 @@ body {
 
 nav ul {
   list-style: none;
-  gap: 20px;
+  gap:20px;
 }
 
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
+  font-size: 1em;
 }
 
 nav ul li a:hover {

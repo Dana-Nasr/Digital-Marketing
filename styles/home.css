@@ -38,6 +38,32 @@ main {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.expertise-section {
+  max-width: 1200px;
+  gap: 20px;
+  padding: 20px;
+}
+.expertise-card {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 20%;
+  max-height: 400px;
+  min-height: 250px;
+  min-width: 200px;
+  transition: transform 0.3s ease;
+}
+.expertise-card:hover {
+  transform: translateY(-10px);
+}
+.expertise-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.expertise-description {
+  font-size: 0.95rem;
+}
+
 .container {
   max-width: 1200px;
   padding: 40px;
@@ -50,7 +76,6 @@ main {
   font-size: 2.5em;
   margin-bottom: 30px;
 }
-
 
 .deliver {
   gap: 20px;
@@ -104,8 +129,8 @@ main {
 .partner {
   max-width: 1150px;
 }
-.partner>p{
-    font-size: 1.3em;
+.partner > p {
+  font-size: 1.3em;
 }
 .partner-container:hover {
   transform: scale(1.05);
@@ -129,13 +154,11 @@ main {
 }
 
 img {
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-    border-radius: 20px;
-  }
-
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
 
 @media (max-width: 768px) {
   .main-container h1 {

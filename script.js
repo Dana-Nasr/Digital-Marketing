@@ -52,3 +52,21 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 });
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.fromTo(
+      "[data-animate2]",
+      { opacity: 0, scale: 1, y: 30 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        ease: "back.out(1.5)",
+        stagger: 0.3,
+        scrollTrigger: {
+          trigger: "#expertise",
+          start: "top 50%",
+          toggleActions: "play none none none",
+        },
+      }
+    );
+  });

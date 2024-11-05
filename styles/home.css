@@ -140,6 +140,8 @@ main {
 
 .footer {
   line-height: 30px;
+  border-top: #21dadb 5px solid;
+  margin-top: 20px;
 }
 .social-links {
   gap: 80px;

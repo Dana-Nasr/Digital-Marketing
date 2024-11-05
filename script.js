@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ease: "power3.out",
       stagger: 0.3, 
       scrollTrigger: {
-        trigger: "#partner", 
+        trigger: "#expertise", 
         start: "top 50%", 
         toggleActions: "play none none none",
       },
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.addEventListener("DOMContentLoaded", function () {
     gsap.fromTo(
-      "[data-animate2]",
+      "[data-animate3]",
       { opacity: 0, scale: 1, y: 30 },
       {
         opacity: 1,
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ease: "back.out(1.5)",
         stagger: 0.3,
         scrollTrigger: {
-          trigger: "#expertise",
+          trigger: "#partner",
           start: "top 50%",
           toggleActions: "play none none none",
         },

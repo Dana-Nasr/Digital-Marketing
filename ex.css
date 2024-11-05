@@ -1,0 +1,39 @@
+.expertise-section {
+  max-width: 1200px;
+  gap: 20px;
+  padding: 20px;
+}
+.expertise-card {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 20%;
+  max-height: 400px;
+  min-height: 300px;
+  transition: transform 0.3s ease;
+}
+.expertise-card:hover {
+  transform: translateY(-10px);
+}
+.expertise-icon {
+  font-size: 40px;
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+.expertise-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.expertise-description {
+  font-size: 0.95rem;
+}
+@media (max-width: 768px) {
+  .expertise-card {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .expertise-card {
+    width: 100%;
+  }
+}
